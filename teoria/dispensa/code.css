@@ -1,0 +1,30 @@
+pre {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .language-javascript {
+    color: #f1e05a;
+  }
+  
+  /* altre classi per evidenziare la sintassi */
+  .comment {
+    color: #999;
+  }
+  
+  .string {
+    color: #d14;
+  }
+  
+  .keyword {
+    color: #90c;
+  }
+  
