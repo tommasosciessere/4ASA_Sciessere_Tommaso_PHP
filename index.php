@@ -84,7 +84,6 @@ function getDirContents($dir, $bpath, $cpath = '', &$results = array())
             foreach (getDirContents(__DIR__ .   $blocco['path'],  $blocco['path'], $blocco['path']) as $url => $label) {
                 echo "<a href='$url'> $label </a> <br>";
             }
-
             ?>
         </div>
     <?php
@@ -100,6 +99,7 @@ function getDirContents($dir, $bpath, $cpath = '', &$results = array())
         <a href="?info=1">Visualizza PhpInfo</a>
         </div>
 
+    </footer>
 </body>
 
 </html>
@@ -140,13 +140,13 @@ function getDirContents($dir, $bpath, $cpath = '', &$results = array())
     }
 
     .footer {
-        position: fixed;
+        /* position: fixed; */
         left: 0;
         right: 0;
         bottom: 0;
         /* width: 100%; */
-        /* background-color: red; */
-        /* color: white; */
+        background-color: sandybrown;
+        color: white;
         text-align: center;
         margin-bottom: 8px;
         padding-bottom: 8px;
@@ -157,4 +157,5 @@ function getDirContents($dir, $bpath, $cpath = '', &$results = array())
             width: 100%;
         }
     }
+
 </style>
