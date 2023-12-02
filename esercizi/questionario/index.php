@@ -12,8 +12,9 @@
     <td>
     <center>
         <div style="background-color: 	#4d99ea; margin: 150px; border-radius: 15px;"><br>
+        <img src="https://www.icloud.com/system/icloud.com/2403Hotfix31/it-it/4f72d89d71e9abcc4e37c71fb77fe65b.svg" alt="ID Apple" style="width: 160px;">
         <h1>Login ID Apple</h1><br>
-        <h4>Usa un dispositivo con iOS 17, iPadOS 17, macOS Sonoma o successivo. In alternativa inserisci le credenziali</h2><br>
+        <h5>Usa un dispositivo con iOS 17, iPadOS 17, macOS Sonoma o successivo. In alternativa inserisci le credenziali. I dispositivi Android non sono accettati.</h2><br>
 <form action="./accesso_pagina_benvenuto.php">
         <label for="Nome">Inserire nome: </label>
         <input type="text" id="Nome" name="Nome"><br><br>
@@ -33,7 +34,9 @@
     </center>
     </td>
     <td style="width: 50%;">
-    <img src="https://exnovocomputer.it/media/catalog/product/cache/b735f906b33c7889668f7237dab85a6d/a/p/apple-iphone-12mini-allcolors.png" alt="no" style="width: 900px;">
+    <video width="920" style="border-radius: 15px;" controls>
+  <source src="https://www.icloud.com/system/icloud.com/2403Hotfix31/fpo@1x.mp4" type="video/mp4">
+</video>
     </td>
     </center>
     </table>
