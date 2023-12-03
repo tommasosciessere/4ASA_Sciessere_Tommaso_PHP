@@ -64,6 +64,10 @@
   </div>
 </nav>
 <body style="background-color: <?=$_GET['Colore']?>;"><br>
+<?php
+$p="info2023";
+if ($_GET['Password']==$p){
+  ?>
 <center>
     <h1>Benvenuto 
     <?=$_GET['Nome']?>
@@ -115,22 +119,22 @@
     <div class="carousel-item active">
       <img src="https://www.smartworld.it/images/2022/10/11/facetime-macos_880x495.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Mac</h5>
+        <p>Il nostro dispositivo più potente</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://techhub.osu.edu/sites/default/files/products/ipad_mini_wi-fi_lineup_screen_usen-2.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>iPad</h5>
+        <p>Il nostro dipositivo più versatile</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://www.docomo.ne.jp/flcache_data/english/iphone/images/12/img_main_smt.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>iPhone</h5>
+        <p>Il nostro dispositivo più famoso</p>
       </div>
     </div>
   </div>
@@ -146,6 +150,17 @@
 </td>
 </table>
 </center>
+<?php
+}
+else {
+  ?>
+  <center>
+  <p class="text-danger" style="font-size: xxx-large"><b>La password inserita non è corretta</b></p>
+  <a class="btn btn-light btn-lg" href="./index,php" role="button">Torna al form</a>
+  </center>
+  <?php
+}
+?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
